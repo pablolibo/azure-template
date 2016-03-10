@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+  "siteName": {
+    "value": "PlatDigTemplateWeb01"
+    },
+    "appServicePlanName": {
+      "value": "PlatDigTemplateWeb01"
+    },
+    "siteLocation": {
+      "value": "eastus"
+    },
+    "sku": {
+      "value": "Shared"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "use32bitWorkerProcess": {
+      "value": false
+    },
+    "enableAlwaysOn": {
+      "value": true
+    }
+  }
+}
